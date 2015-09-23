@@ -1,6 +1,12 @@
 = simple_form_for @post  do |f|
-  =f.input :image
-  =f.input :title
-  =f.input :link
-  =f.input :description
-  =f.button:submit
+ .form-horizontal{role: "form", style: "margin-left:20px"}
+  .input-group{style: "margin-top:10px"}
+   =f.input :image, class: "btn btn-success" 
+  .input-group{style: "margin-top:10px"}
+   =f.input :title, class: "form-control"
+  .input-group{style: "margin-top:10px"}
+   =f.input :link, class: "form-control"
+  .input-group{style: "margin-top:10px"}
+   =f.input :description, class: "form-control"
+  .input-group{style: "margin-top:10px"}
+   =f.button:submit, class: "btn btn-primary"            
