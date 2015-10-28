@@ -1,3 +1,4 @@
+ # just now
  # this is just the new modification
 class ApplicationController < ActionController::Base
   # Prevent CSRF attacks by raising an exception.
